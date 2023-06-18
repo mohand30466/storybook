@@ -11,5 +11,10 @@
     "task": "echo 'Installing Script Dependencies...'; cd scripts; yarn install >/dev/null; yarn task",
     "test": "cd code; yarn test"
   },
-  "packageManager": "yarn@3.5.1"
+  "packageManager": "yarn@3.5.1",
+  "dependencies": {
+    "react": "^18.2.0",
+    "task": "^1.3.2",
+    "yarn": "^1.22.19"
+  }
 }
